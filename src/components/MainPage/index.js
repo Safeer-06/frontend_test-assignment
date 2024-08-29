@@ -5,7 +5,7 @@ import { useState } from "react";
 import OperatorContainer from "../OperatorContainer";
 
 export default function MainPage() {
-  const [filterOpen, setFilterOpen] = useState(false);
+  const [filterOpen, setFilterOpen] = useState(true);
   return (
     <main className={styles.main}>
       <div className={styles.description}>
